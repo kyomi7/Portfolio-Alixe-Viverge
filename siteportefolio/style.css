@@ -1,0 +1,158 @@
+body{
+    margin: auto;
+    background-color: rgb(246, 228, 235);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.color-background {
+    /* background-color: #F8BB8A;*/
+   background-color: rgb(147, 67, 171);
+}
+
+.wrapper {
+    width: 70vw;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+.txt-center {
+    text-align: center;
+}
+
+header {
+    height: 5rem;
+}
+/* 
+.navbar-toggler {
+    color: white;
+} */
+
+section, article {
+    margin-top: 8rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+nav li {
+    margin-left: 5rem;
+}
+
+
+
+.illustrationsvg {
+    height: 25rem;
+    margin-right: 3rem;
+}
+
+.navTitle {
+    letter-spacing: 0.25rem;
+}
+
+span {
+    color: rgb(147, 67, 171);
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 2rem;
+}
+
+h2{
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 2rem;
+}
+.caption {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 2rem;
+}
+
+.title {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+  
+    margin-bottom: 0;
+    margin-left: -15rem;
+}
+.titleEnd {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    color: rgb(147, 67, 171);
+    margin: 0 10rem 1rem 10rem;
+}
+
+hr {
+    height: 0.2rem;
+    background-color: black;
+}
+
+.skills {
+    border: solid 0.4rem rgb(218, 82, 218);
+    padding: 3rem;
+    border-radius: 10%;
+    margin: 1rem;
+}
+
+.logo-adobe {
+    height: 3rem;
+}
+
+.logo-front {
+    height: 4rem;
+}
+
+.logo-back {
+    height: 2.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.contactWay {
+    width: 25rem;
+    border: solid rgb(147, 67, 171) 0.3rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    
+}
+
+
+
+
+footer{
+    margin-top: 5rem;
+    padding-top: 0.1rem;
+    height: 4rem;
+    color: white;
+    background-color: rgb(147, 67, 171);
+}
